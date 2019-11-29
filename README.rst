@@ -1,5 +1,5 @@
 ==================================
-Async http client/server framework
+asyncscheduler
 ==================================
 Simple to use scheduled events built on asyncio.
 
@@ -14,6 +14,7 @@ Getting started
 An example for usage is included below.
 
 .. code-block:: python
+
   from asyncscheduler import Scheduler
   import asyncio
   import pytz
