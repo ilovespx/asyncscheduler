@@ -67,7 +67,7 @@ class ScheduledEvent:
             else:
                 raise RuntimeError(f"at arguement requires string, received {type(schedule_time)}")
 
-            self.wait_interval = (dt.datetime.now(timezone)-schedule_time).seconds
+            self.wait_interval = (schedule_time-dt.datetime.now(timezone)).seconds
             self._adjused_time = int(24)*3600
 
         else:        
