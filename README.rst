@@ -44,7 +44,3 @@ An example for usage is included below.
 
   jobs.start()
 
-License
-=======
-
-``asyncscheduler`` is offered under the MIT license.
